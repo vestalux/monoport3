@@ -8,6 +8,8 @@
 {% else %}{% if page.excerpt %}
 <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 50 }}">
 {% endif %}{% endif %}-->
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 
 <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.blog.description }}{% endif %}">
