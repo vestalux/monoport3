@@ -1,5 +1,5 @@
 # Base blog settings
-baseurl                      : "/monoport3/" # the subpath of your site,                         # e.g. /blog/
+baseurl                      : "/monoport3" # the subpath of your site,                         # e.g. /blog/
                               # set to '' in case of hosting on GitHub
 url                          : "vestalux.github.io" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
@@ -26,13 +26,13 @@ blog:
 
 # Author info
 author:
-  fullname                  : Your Name
+  fullname                  : Istvan Lechner
   rss                       : true # generate RSS feed and show it's icon in header
-  mail                      : your@email.com # change to your e-mail address
+  mail                      : hi@monoport.eu
   twitter                   : monoport
-  github                    : github-user-name
-  youtube                   : youtube-user-name
-  stackoverflow             : stackoverflow-user-name
+  github                    : vestalux
+  youtube                   : # youtube-user-name
+  stackoverflow             : # stackoverflow-user-name
   disqus                    : # your_disqus_forum_shortname
   google_analytics          : # 'UA-XXXXXXXX-X'
   photo                     : "uploads/me2.png"
