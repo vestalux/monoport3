@@ -6,8 +6,7 @@ url                          : "vestalux.github.io" # the base hostname & protoc
 
 blog:
   title                      : monoport
-  description                  : >
-                               this should contain a proper description
+  description                  : Technical writing
 
 # Layout configuration
   logo_path                  : "assets/img/monoport.svg" # path to logo file
