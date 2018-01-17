@@ -84,6 +84,7 @@ display: inline-block;
     }
     // fake it till you make it
     .logo {
+	@include centered-block();
       margin-top: 5rem;
       .logosvg {
         display: block;
