@@ -5,7 +5,8 @@ tags:
   - monoport
   - jekyll
 hero: https://source.unsplash.com/collection/430471/
-overlay: blue
+overlay: green
+permalink: /about/
 published: true
 
 ---
