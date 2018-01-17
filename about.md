@@ -7,9 +7,6 @@ hero: https://source.unsplash.com/collection/145103/
 overlay: green
 ---
 
-<div class="page" markdown="1">
-
-{% include page/title.html title=page.title subtitle=page_subtitle %}
 
 > ## mono-
 > 1. a combining form meaning “alone,” “single,” “one” ( monogamy); specialized in some scientific terms to denote a monomolecular thickness ( monolayer) and adapted in chemistry to apply to compounds containing one atom of a particular element ( monohydrate).
@@ -40,4 +37,3 @@ The digital revolution has started in every industry and to be competitive one h
 
 
 
-</div>
