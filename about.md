@@ -1,10 +1,13 @@
 ---
 layout: post
-title: About
-permalink: /about/
+title:  "About"
+tags:
+  - monoport
+  - jekyll
+hero: https://source.unsplash.com/collection/430471/
+overlay: blue
 published: true
-hero: https://source.unsplash.com/collection/145103/
-overlay: green
+
 ---
 
 
