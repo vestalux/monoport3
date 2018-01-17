@@ -3,41 +3,8 @@ layout: default
 ---
 <div class="page" markdown="1">
 
-<article class="post">
+{% include page/title.html title=page.title subtitle=page_subtitle %}
 
-  {% if site.blog.hero_layout == true %}
-  {% include utils/hero.html %}
-  {% endif %}
-
-  <!-- Post title (& hero image) container -->
-  <div class="post-title-container
-  {% if site.blog.hero_layout == true %}
-  {{ post.url | remove: '/posts/' }} {{ post.url | remove: '/posts/' }}-bleed-container bleed-hero-container
-    {% else %}
-  no-hero-margin
-  {% endif %}">
-    <!--Post hero image source-->
-    {% if site.blog.hero_layout == true %}
-      {% if post.source-img %}
-      <div class="post-source-img">
-        <span class="source-text">source: </span>
-        <span class="source"><a href="{{ post.source-img }}">{{ post.source-img }}</a></span>
-      </div>
-      {% endif %}
-    {% endif %}
-    <!-- Post title -->
-    <div class="heading-container hero-heading hero-heading-post">
-      <h1>
-       {{ include.title }}
-      </h1>
-   
-    </div>
-  </div>
-
-    <!-- Post content -->
-    {{ content }}
-</article>
-
-
+{{ content }}
 
 </div>
