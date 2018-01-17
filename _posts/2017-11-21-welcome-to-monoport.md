@@ -4,7 +4,7 @@ title:  "About Monoport"
 tags:
   - monoport
   - jekyll
-hero: {{ base }}/assets/img/hero/dock.jpg
+hero: /assets/img/hero/dock.jpg
 overlay: blue
 published: true
 
