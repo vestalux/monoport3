@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  About
+subtitle: the monoport story
 hero: https://source.unsplash.com/collection/430471/
 overlay: green
 permalink: /about/
