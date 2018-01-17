@@ -12,8 +12,7 @@ sitemap:
 
 <div class="container">  
   <form id="contact" action="" method="post" action="http://formspree.io/leki69@gmail.com">
-    <h3>Quick Contact</h3>
-    <h4>Contact us today, and get reply with in 24 hours!</h4>
+    
     <fieldset>
       <input placeholder="Your name" type="text" tabindex="1" required autofocus>
     </fieldset>
@@ -60,7 +59,7 @@ sitemap:
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 #contact {
-	background:#F9F9F9;
+
 	padding:25px;
 	margin:50px 0;
 }
