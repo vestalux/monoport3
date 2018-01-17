@@ -6,7 +6,7 @@ url                          : "vestalux.github.io" # the base hostname & protoc
 
 blog:
   title                      : monoport
-  description                  : Technical writing
+  description                  : Sailing the digital ocean
 
 # Layout configuration
   logo_path                  : "assets/img/monoport.svg" # path to logo file
