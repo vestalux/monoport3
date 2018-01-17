@@ -1,6 +1,6 @@
 ---
-layout: default
-title:  "About"
+layout: page
+title:  About
 hero: https://source.unsplash.com/collection/430471/
 overlay: green
 permalink: /about/
