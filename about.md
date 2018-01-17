@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  About
+title:  Services
 subtitle: the monoport story
 hero: https://source.unsplash.com/collection/430471/
 overlay: green
