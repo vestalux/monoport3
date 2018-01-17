@@ -2,30 +2,31 @@
 layout: default
 ---
 {% include utils/hero.html %}
-<!-- Post title (& hero image) container -->
-  <div class="post-title-container
+
+<!-- page title (& hero image) container -->
+  <div class="page-title-container
   {% if site.blog.hero_layout == true %}
-  {{ post.url | remove: '/posts/' }} {{ post.url | remove: '/posts/' }}-bleed-container bleed-hero-container
+  {{ page.url | remove: '/pages/' }} {{ page.url | remove: '/pages/' }}-bleed-container bleed-hero-container
     {% else %}
   no-hero-margin
   {% endif %}">
-    <!--Post hero image source-->
+    <!--page hero image source-->
     {% if site.blog.hero_layout == true %}
-      {% if post.source-img %}
-      <div class="post-source-img">
+      {% if page.source-img %}
+      <div class="page-source-img">
         <span class="source-text">source: </span>
-        <span class="source"><a href="{{ post.source-img }}">{{ post.source-img }}</a></span>
+        <span class="source"><a href="{{ page.source-img }}">{{ page.source-img }}</a></span>
       </div>
       {% endif %}
     {% endif %}
-    <!-- Post title -->
-    <div class="heading-container {% if site.blog.hero_layout == true %}hero-heading hero-heading-post{% endif %}">
+    <!-- page title -->
+    <div class="heading-container {% if site.blog.hero_layout == true %}hero-heading hero-heading-page{% endif %}">
       <h1>
-        {% if post.link != nil %}
-        <a href="{{ post.link }}" title="{{ post.title }}" target="_blank">
+        {% if page.link != nil %}
+        <a href="{{ page.link }}" title="{{ page.title }}" target="_blank">
         {% endif %}
-          {{ post.title }}
-        {% if post.link != nil %}
+          {{ page.title }}
+        {% if page.link != nil %}
         &rarr; </a>
         {% endif %}
       </h1>
