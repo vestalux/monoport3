@@ -1,0 +1,47 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    options:
+    - page
+    - post
+    - default
+  label: Layout
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: datetime
+  label: Date
+  name: date
+- type: textarea
+  name: content
+  label: Content
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: tag_list
+  name: tags
+  label: Tags
+- type: select
+  name: overlay
+  config:
+    source:
+      type: simple
+    options:
+    - red
+    - blue
+    - green
+    - purple
+    - orange
+  label: Overlay
+- type: file
+  name: hero
+  label: Featured image
