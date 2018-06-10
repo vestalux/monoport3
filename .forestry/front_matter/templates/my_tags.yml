@@ -28,6 +28,7 @@ fields:
   hidden: false
   default: blog-by-tag
 pages:
+- _my_tags/valami.md
 - _my_tags/monoport.md
 - _my_tags/jekyll.md
 - _my_tags/howto.md
