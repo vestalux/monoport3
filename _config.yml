@@ -48,6 +48,19 @@ gems:
   - jekyll-paginate
   - jekyll-sitemap
 
+# Menu
+navigation:
+ - title: Home
+   url: /index.html
+ - title: Stories
+   url: /stories
+ - title: Framerate
+   url: /framerate
+ - title: About
+   url: /about
+ - title: Contact
+   url: /contact
+   
 # Permalinks
 permalink                    : posts/:slug
 
