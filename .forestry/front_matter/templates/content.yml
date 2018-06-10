@@ -45,3 +45,5 @@ fields:
 - type: file
   name: hero
   label: Featured image
+pages:
+- _posts/hello.md
