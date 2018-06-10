@@ -50,14 +50,14 @@ gems:
 
 # Menu
 navigation:
- - title: Home
+ - title: Blog
    url: /index.html
- - title: Stories
-   url: /stories
- - title: Framerate
-   url: /framerate
- - title: About
-   url: /about
+ - title: Design
+   url: /design
+ - title: Talk
+   url: /consulting
+ - title: Make
+   url: /manufacturing
  - title: Contact
    url: /contact
    
