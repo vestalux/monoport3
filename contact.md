@@ -8,7 +8,7 @@ weight: 5
 sitemap:
   priority: 0.9
 ---
-![](/uploads/profil.jpg)
+![](../uploads/profil.jpg)
 
 ## István Lechner
 
