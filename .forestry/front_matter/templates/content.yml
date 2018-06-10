@@ -39,4 +39,5 @@ fields:
   name: hero
   label: Featured image
 pages:
+- consulting.md
 - _posts/2018-06-10-hello.md
