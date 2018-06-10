@@ -4,7 +4,7 @@ title: Design
 subtitle: digital one stop shop
 hero: https://source.unsplash.com/collection/430471/
 overlay: red
-permalink: "/services/"
+permalink: "/design/"
 ---
 ## Putting the FUN in Function
 
