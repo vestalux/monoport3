@@ -18,9 +18,9 @@ fields:
   hidden: false
   default: ''
 pages:
+- _my_tags/howto.md
+- _my_tags/dactl.md
 - _my_tags/valami-md.md
 - _my_tags/monoport.md
 - _my_tags/jekyll.md
-- _my_tags/howto.md
 - _my_tags/design.md
-- _my_tags/dactl.md
