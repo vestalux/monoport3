@@ -1,5 +1,5 @@
 ---
-slug: jekyll
-name: Jekyll
+slug: web
+name: web
 description: Webdesign & development
 ---
