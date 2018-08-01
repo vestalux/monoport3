@@ -27,7 +27,7 @@ blog:
 author:
   fullname                  : Istvan Lechner
   rss                       : true # generate RSS feed and show it's icon in header
-  mail                      : hi@monoport.eu
+  mail                      : hi@monoport.hu
   twitter                   : monoport
   facebook                  : monoport
   github                    : vestalux
@@ -54,13 +54,11 @@ navigation:
    url: /index.html
  - title: Design
    url: /design
- - title: Talk
+ - title: Consulting
    url: /consulting
- - title: Make
-   url: /manufacturing
  - title: Contact
    url: /contact
-   
+
 # Permalinks
 permalink                    : posts/:slug
 
