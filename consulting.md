@@ -4,7 +4,7 @@ subtitle: support for entrepreneurs
 date: 2018-06-10 00:00:00 +0000
 layout: page
 tags: []
-overlay: ''
+overlay: blue
 hero: ''
 ---
 ### Business Consulting
